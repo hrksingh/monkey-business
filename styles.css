@@ -154,3 +154,66 @@ a:hover {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.156);
   background: linear-gradient(to bottom, #ffffc1, #ecec73);
 }
+
+.quote-text {
+  background-color: #ffd523;
+  font-size: 1.4em;
+  color: #5f1403;
+  text-align: center;
+  padding: 10px;
+}
+
+.quote-text > p:last-child {
+  padding: 10px;
+  text-align: right;
+  font-family: obong, "Roboto", sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  background-color: #bc8e03;
+  font-size: 1.1em;
+}
+
+.contact {
+  padding: 60px;
+}
+
+.contact-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #3c0d03;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.156);
+  background: linear-gradient(to bottom, #ffffc1, #ecec73);
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.sign-up > p {
+  margin: 10px;
+  padding: 0;
+  font-family: lmonkey, "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+.sign-up > p:first-child {
+  font-size: 1.8em;
+  font-weight: bolder;
+}
+
+.sign-button {
+  align-self: center;
+  height: 60px;
+  width: auto;
+}
