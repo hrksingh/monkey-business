@@ -1,0 +1,115 @@
+@font-face {
+  font-family: monkeyFont;
+  src: url(assets/JandaSillyMonkey-opYV.ttf);
+}
+
+@font-face {
+  font-family: obong;
+  src: url(assets/AnomanObong-jE1ZM.ttf);
+}
+
+@font-face {
+  font-family: lmonkey;
+  src: url(assets/ILoveYouMonkey-86nz.ttf);
+}
+
+@font-face {
+  font-family: lheart;
+  src: url(assets/ILoveYouMonkeyHearted-Y0nv.ttf);
+}
+
+body {
+  font-family: monkeyFont, "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f763;
+}
+
+.img-logo {
+  padding: 1px;
+  width: 80px;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-text {
+  font-size: 1.8em;
+  font-weight: bolder;
+  color: #aa381f;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding-right: 16px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #aa381f;
+}
+
+h1 {
+  font-family: obong, "Roboto", sans-serif;
+  font-size: 2.5em;
+  color: #df1717;
+  margin-top: 20px;
+  padding-left: 12px;
+  text-decoration: green dotted underline 0.09em;
+}
+
+p {
+  font-family: lmonkey, "Roboto", sans-serif;
+  font-size: 1.4em;
+  color: #5f1403;
+  padding-left: 20px;
+}
+
+button {
+  font-family: monospace, "Roboto", sans-serif;
+  font-size: 1.2em;
+  color: #aa381f;
+  background-color: #ecec73;
+  border: 1px solid #3c0d03;
+  padding: 10px 20px;
+  margin: 20px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.156);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  display: flex;
+  background-color: #ffffc1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ffffc1, #ecec73);
+}
+
+.hero-image {
+  height: auto;
+  transform: scaleX(-1);
+  max-width: 23%;
+  flex: 2;
+  padding-left: 80px;
+}
+
+.hero-text {
+  flex: 1;
+}
