@@ -113,3 +113,44 @@ a:hover {
 .hero-text {
   flex: 1;
 }
+
+.info-text > h2 {
+  font-family: lheart, "Roboto", sans-serif;
+  font-size: 2.5em;
+  color: #6f0101;
+  text-align: center;
+  text-decoration: green wavy underline 0.09em;
+}
+
+.info-text > p {
+  font-family: lmonkey, "Roboto", sans-serif;
+  font-size: 1.4em;
+  color: #5f1403;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card > img {
+  width: 250px;
+  height: auto;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #3c0d03;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.156);
+  background: linear-gradient(to bottom, #ffffc1, #ecec73);
+}
